@@ -634,7 +634,16 @@
             </label>
           </div>
           <label class="modal-form-agreement">
-            <input class="modal-checkbox" name="user-agreement" type="checkbox" required />
+            <input
+              class="modal-checkbox visually-hidden"
+              name="user-agreement"
+              type="checkbox"
+              required
+            />
+            <svg class="icon-checkbox" width="16" height="15">
+              <use class="icon-unchecked" href="./images/icons.svg#icon-unchecked"></use>
+              <use class="icon-checked" href="./images/icons.svg#icon-checked"></use>
+            </svg>
             Погоджуюся з розсилкою та приймаю
             <a class="modal-form-agreement-link" href="">Умовами договору</a>
           </label>
