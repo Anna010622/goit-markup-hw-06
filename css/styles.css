@@ -794,6 +794,9 @@ body {
   opacity: 1;
 }
 
+.modal-checkbox:focus-visible + .icon-checkbox {
+  outline: #000000 auto 1px;
+}
 .modal-form-agreement-link {
   text-decoration-line: underline;
   text-underline-position: under;
